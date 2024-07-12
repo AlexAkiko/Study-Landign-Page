@@ -9,10 +9,10 @@
 }
 body{
     background: url(img/walpaper-thelast.webp);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
+
 header{
     display: flex;
     align-items: center;
@@ -63,7 +63,7 @@ main section{
     margin-left: 2.5em;
 }
 main .LogoTheLast{
-    width: 35em;
+    width: 8em;
     margin: 3em 0;
 }
 main section .btn-box{
@@ -71,7 +71,7 @@ main section .btn-box{
     gap: 20px;
 }
 .btn-box .btn{
-    padding: 20px 45px;
+    padding: 10px 25px;
     background: #0a521e;
     margin-bottom: 2em;
     color: #fff;
@@ -89,7 +89,7 @@ main section .text{
     display: flex;
     align-items: center;
     gap: 15px;
-    padding: 15px 45px;
+    padding: 5px 25px;
     border-radius: 5px 5px 0 0;
     margin-top: 2em;
     font-size: 25px;
